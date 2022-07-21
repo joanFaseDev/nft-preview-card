@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <figure>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link
@@ -18,19 +17,21 @@
   />
   <body>
     <main class="grid">
-      <div class="item item__header">
+      <!-- Card Header-->
+      <article class="item item__header">
         <img
           src="./images/image-equilibrium.jpg"
           alt="Image of a transparent cube with red shade of light, seems to be one item of an NFT's collection"
           class="header__img"
         />
-      </div>
-      <div class="item item__main">
+      </article>
+      <!-- Card Main-->
+      <article class="item item__main">
         <h2 class="main__title">Equilibrium #3429</h2>
         <p class="main__presentation">
           Our Equilibrium collection promotes balance and calm.
         </p>
-        <div class="main__footer">
+        <article class="main__footer">
           <span class="main__ETH"
             ><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -46,15 +47,19 @@
               /></svg
             >3 days left</span
           >
-        </div>
-      </div>
+        </article>
+        <hr class="thin" />
+      </article>
+      <!-- Card Footer -->
       <figure class="item item__footer">
         <img
           src="./images/image-avatar.png"
           alt="A rounded image of the avatar's publisher."
           class="footer__img"
         />
-        <figcaption class="footer__legend"">Creation of Jules Wyvern</figcaption>
+        <figcaption class="footer__legend">
+          Creation of <span class="footer__author">Jules Wyvern</span>
+        </figcaption>
       </figure>
     </main>
   </body>

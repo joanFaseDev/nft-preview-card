@@ -1,3 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(217, 54%, 11%);
+  /* height: 100vh; */
+}
+
+.grid {
+  width: 88%;
+  margin: 3rem auto;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  display: grid;
+  grid-template-areas:
+    "item__header"
+    "item__main"
+    "item__footer";
+}
+
+.item__header {
+  grid-area: item__header;
+}
+.item__main {
+  grid-area: item__main;
+}
+.item__footer {
+  grid-area: item__footer;
+}
+
+.header__img {
+  width: 100%;
+  border-radius: 0.5rem;
+  /* object-fit: scale-down; */
+}
+
+.main__title {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.main__presentation {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  font-weight: lighter;
+  margin-top: 0.6rem;
+  margin-bottom: 0.55rem;
+}
+
+.main__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.main__ETH {
+  color: hsl(178, 100%, 50%);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.main__ETH > svg {
+  margin-right: 0.3rem;
+  position: relative;
+  top: 0.25rem;
+}
+
+.main__time {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.8rem;
+}
+
+.main__time > svg {
+  position: relative;
+  margin-right: 0.3rem;
+  top: 0.25rem;
+}
+
+.thin {
+  color: hsla(215, 52%, 70%, 0.199);
+  transform: scaleY(0.5);
+  margin-top: 1rem;
+}
+
+.item__footer {
+  margin: 0.5rem 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer__img {
+  width: 1.8rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.footer__legend {
+  color: hsl(215, 51%, 70%);
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+
+.footer__author {
+  color: hsl(0, 0%, 100%);
 }

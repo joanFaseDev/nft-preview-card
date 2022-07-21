@@ -101,10 +101,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [MDN Article focused on the aria role 'article'](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/article_role) - This helped me to further inquire about accessibility in web developpement and the various ways developpers can tweak their codes to improves the experience of people using assisting technologies.
+- [Fundamental concepts of Aria, its purpose and how to use it](https://w3c.github.io/aria-practices/) - W3C's draft about accessibility and Aria's concepts. I obly read part of it but i put the link here because i feel most of my questions about accessibility have theirs answers inside.
 
 ## Author
 
