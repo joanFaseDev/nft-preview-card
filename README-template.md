@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,8 +16,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,13 +25,21 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
+### The challenger
+
+Hi everyone! First and foremost i want you to know that english isn't my first language and, even if i do try to make myself clear and explain my process as well as possible, there's still a high chance i'll do mispellings or grammatical errors. If that happen, please forgive me. 
+
+That being said, this is my fourth project from Frontend Mentor. You should know i'm an aspiring front-end developper which means i'm not a very good source to learn web development. Yet, i do my best to tackle each project seriously and explain my thought process so that maybe one day it could be of some help to someone. It's also important to me because i want to be able to come back to these README files to see my progress / search references / take a different approach / etc
+
+Sorry for the long introduction. Without further delay, let's dig in!
+
 ### Screenshot
 
 ![](./screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
@@ -41,23 +47,25 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Project on GitHub](https://github.com/joanFaseDev/nft-preview-card)
+- Live Site URL: [Projet hosted through Vercel](https://nft-preview-card-beta-jet.vercel.app/)
 
 ## My process
 
+### Planning
+
+This challenge is about reproducing a card promoting some kind of NFT. There's two designs to display (mobile and desktop one) but, upon closer inspection, it appears that the two designs are almost identicals (some tiny changes in padding/margin but nothing more i could see). It's important because that means the page is almost non responsive and so there's no real need to use media queries and relative length units. Yet these units, rems, ems, percentages and the like, are the ones mostly used today (because they help building this responsive side every web page should have) and i don't want to lose an opportunity to handle them in a project so i'll go with it.
+
+My plan is to use CSS Grid here. It's probably too much considering the simple design of the card but i really want to get better at using the grid and this kind of project seems perfect to get the hand of it. One grid made of one column and three rows. I'll change the second row in a flexbox container to align the various items inside.  
+
+Not much more to say about the content; as for the card it seems to have a very large shadow. Not sure if we're supposed to reproduce that but i'll play a bit with the *shadow-box* property and see what i can do.
+
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML
+- CSS 
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -68,15 +76,17 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
