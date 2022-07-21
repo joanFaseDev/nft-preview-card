@@ -11,12 +11,15 @@ body {
   padding: 0;
   margin: 0;
   background-color: hsl(217, 54%, 11%);
-  /* height: 100vh; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid {
-  width: 88%;
-  margin: 3rem auto;
+  width: 330px;
+  margin: 0 auto;
   background-color: hsl(216, 50%, 16%);
   padding: 1.2rem;
   border-radius: 0.8rem;
@@ -25,6 +28,7 @@ body {
     "item__header"
     "item__main"
     "item__footer";
+  box-shadow: 0 30px 10px 17px hsl(219, 54%, 9%);
 }
 
 .item__header {
@@ -38,7 +42,7 @@ body {
 }
 
 .header__img {
-  width: 100%;
+  width: 286px;
   border-radius: 0.5rem;
   /* object-fit: scale-down; */
 }
